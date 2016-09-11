@@ -83,6 +83,9 @@
 .pb-13{
     padding-bottom: 13%;
 }
+.pb-30{
+    padding-bottom: 30%;
+}
 .mg-0{
 	margin: 0%;
 }
@@ -152,26 +155,4 @@
 }
 .text-right{
 	text-align: right;
-}
-/*TEXTO*/
-.white{
-	color: white;
-}
-.black{
-    color: black;
-}
-*{
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-.pull-left {
-	float: left;
-}
-
-.pull-right {
-	float: right;
-}
-.inl{
-    display: inline;
 }
