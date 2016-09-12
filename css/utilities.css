@@ -150,12 +150,6 @@
 .lh{
 	line-height: 1.5;
 }
-.text-center{
-	text-align: center;
-}
-.text-left{
-	text-align: left;
-}
-.text-right{
-	text-align: right;
+.inline{
+    display: inline;
 }

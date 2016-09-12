@@ -211,14 +211,14 @@ img{
     background-color: rgba(0,0,0,0.3);
 }
 .trans:hover h3{
-    color: sandybrown;
+    color: #a96931;
     border-bottom: 1px solid white;
 }
 .trans:hover img{
     background-image: none;
-    border:10px solid sandybrown;
+    border:10px solid #a96931;
     transform: rotate(-135deg);
-    background-color: sandybrown;
+    background-color: #a96931;
     border: none;
 }
 .btn-default{
@@ -228,10 +228,58 @@ img{
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
     color: white;
-    background-color: sandybrown;
-    border-color: sandybrown;
+    background-color: #a96931;
+    border-color: #a96931;
 }
 h4{
     color:black;
     border-bottom: 1px solid gray;
+}
+/*Estilo para los precios*/
+.box-price{
+    border:1px solid #27ad60;
+    max-width: 80%;
+    margin-top: 20%;
+    
+}
+.box-price ul.oro li:nth-child(2n+1) {
+    background-color: #8f5f38;
+    color: white;
+}
+.box-price li:nth-child(2n+1) {
+    background-color: transparent;
+    color: white;
+}
+.box-price li:last-child{
+    background-color: transparent !important;
+    color: white;
+}
+.box-price li:nth-child(2){
+    background-color: #27ad60;
+    color: white;
+}
+.box-price li:nth-child(2n+4) {
+    background-color: white;
+    color:#2c3e50;
+}
+.box-price:hover{
+    margin-top: 5%;
+    border-color: orangered;
+}
+.btn-info{
+    background-color: #546462;
+    border-color: #546462;
+    color:white;
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {
+    color: white;
+    background-color: #27ad60;
+    border-color: #27ad60;
+}
+.list-group, .list-group-item{
+    border:none;
+}
+section li.list-group-item{
+    font-size: 1.1em;
+    font-weight: 300;
 }
