@@ -300,3 +300,20 @@ form{
 textarea{
     height: 150px !important;
 }
+.fondo4{
+    background-image: url("../img/img-divider-img.jpg");
+    background-size: cover;
+    background-position: center;
+    height:400px;
+}
+.fondo5{
+    background-image: url("../img/img-divider-img.jpg");
+    background-size: cover;
+    background-position: top;
+    height:250px;
+    margin-top: 150px;
+    padding-top:5%;
+}
+#redes .fa{
+    font-size: 8em;
+}
