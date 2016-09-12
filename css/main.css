@@ -344,12 +344,16 @@ footer .fa{
 }
 @media screen and (max-width:767px){
     .navbar-nav > li > a {
-    padding-top: 5px;
-    padding-bottom: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
      .fondo1 p{
-    font-size: 1em;
-    color:white;
+        font-size: 1em;
+        color:white;
+    }
+    #clients p {
+        padding: 3% 8% 1%;
+        font-size: 1em;
     }
     .h1{
         font-family: 'Roboto', sans-serif !important;
@@ -359,5 +363,8 @@ footer .fa{
     .h1{
         font-size: 2em !important;
         margin: 2em 0;
+    }
+    #redes .fa{
+        font-size: 3em;
     }
 }
