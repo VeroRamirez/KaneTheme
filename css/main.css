@@ -231,3 +231,7 @@ img{
     background-color: sandybrown;
     border-color: sandybrown;
 }
+h4{
+    color:black;
+    border-bottom: 1px solid gray;
+}
