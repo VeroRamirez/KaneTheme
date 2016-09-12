@@ -294,3 +294,9 @@ section li.list-group-item{
     color:chocolate;
     padding: 0% 2% 1% !important;
 }
+form{
+    max-width: 70%;
+}
+textarea{
+    height: 150px !important;
+}
